@@ -66,7 +66,7 @@ void preOrder(Node *root)
 int main()
 {
     // 10 8 6 -1 -1 5 -1 -1 7 -1 4 3 -1 -1 -1
-    Node *root = createNode();
+    Node *root = buildTree();
     levelOrder(root);
     cout << endl;
     inOrder(root);
