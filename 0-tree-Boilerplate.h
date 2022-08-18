@@ -6,6 +6,15 @@ struct Node
     Node(int d) : data(d), lc(NULL), rc(NULL) {}
 };
 // 10 8 6 -1 -1 5 -1 -1 7 -1 4 3 -1 -1 -1
+/*
+                             10
+                          /     \
+                        8        7
+                      /   \        \
+                    6       5       4
+                                   /
+                                  3
+*/
 Node *buildTree()
 {
     int d;
